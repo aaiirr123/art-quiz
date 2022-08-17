@@ -1,0 +1,12 @@
+export async function getAllArt() {
+
+    try{
+        const response = await fetch('https://collectionapi.metmuseum.org/public/collection/v1/objects/90');
+        console.log(response)
+        console.log("worked")
+        return await response.json();
+    }catch(error) {
+        return [];
+    }
+    
+}

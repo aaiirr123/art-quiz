@@ -1,0 +1,18 @@
+.header--title {
+    font-size: 3.5rem;
+    margin-right: auto;
+}
+
+.header--sub-title{
+    font-size: 2rem;
+}
+
+.header--container {
+    background: linear-gradient(90deg, #13a97f 1.18%, #225b53 100%);
+    display: flex;
+    align-items: center;
+    height:120px;
+    padding: 2.5rem;
+    color: white;
+    line-height: 2.8rem;
+}

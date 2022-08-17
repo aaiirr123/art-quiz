@@ -1,0 +1,49 @@
+main {
+    display: flex;
+}
+
+.form {
+    width: 50%;
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+    margin: auto;
+    margin-top: 30px;
+    font-family: "Karla", sans-serif;
+}
+
+.form > input{
+    text-indent: 8px;
+    border-radius: 5px;
+    border-color: #13a97f;
+}
+
+.form--button {
+    grid-column: 1 / -1;
+    border-radius: 5px;
+    color: white;
+    border: none;   
+    font-size: 20px;
+    height: 40px;
+    transition-duration: 0.4s;
+    background: linear-gradient(90deg, #13a97f 1.18%, #225b53 100%);
+}
+
+.form--button:hover {
+    background: linear-gradient(90deg, #0f8a67 1.18%, #0b3a34 100%);
+    color: white;
+}
+  
+.art--image {
+    grid-column: 1 / -1;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.answer--box {
+    padding: 15px;
+    width: 15%;
+    background: #13a97f;
+    color:white;
+}
+.answer {
+}
