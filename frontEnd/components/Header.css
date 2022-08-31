@@ -6,6 +6,9 @@
 .header--sub-title{
     font-size: 2rem;
 }
+.sub--header--container {
+    padding-left: 2.5rem;
+}
 
 .header--container {
     background: linear-gradient(90deg, #13a97f 1.18%, #225b53 100%);

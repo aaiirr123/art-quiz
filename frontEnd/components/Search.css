@@ -8,7 +8,8 @@ main {
     grid-template: 40px 40px / 1fr 1fr;
     gap: 17px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
     font-family: "Karla", sans-serif;
 }
 
@@ -28,6 +29,25 @@ main {
     height: 40px;
     transition-duration: 0.4s;
     background: linear-gradient(90deg, #13a97f 1.18%, #225b53 100%);
+}
+.suggestion--text {
+    grid-column: 1 / -1;
+    color: black;
+    font-size: 40px;
+}
+.suggestion--button {
+    grid-column: 0 / 1;
+    border-radius: 5px;
+    color: white;
+    border: none;   
+    font-size: 20px;
+    height: 40px;
+    transition-duration: 0.4s;
+    background: linear-gradient(90deg, #45aaa7 1.18%, #62d2c3 100%);
+}
+.suggestion--button:hover {
+    background: linear-gradient(90deg, #0f8a67 1.18%, #0b3a34 100%);
+    color: white;
 }
 
 .form--button:hover {
